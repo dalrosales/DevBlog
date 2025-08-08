@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     permissions:
+       id-token: write
        contents: read
     steps:
       - uses: actions/checkout@v4
@@ -37,10 +38,10 @@ jobs:
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_OCEAN_06D82380F }}
           action: "upload"
           app_location: dist
           skip_app_build: true
+          repo_token: ${{ secrets.GITHUB_TOKEN }}  # optional (PR comments/status)
       
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -52,3 +53,4 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
+
