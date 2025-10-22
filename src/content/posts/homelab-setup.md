@@ -1,6 +1,6 @@
 ---
 title: "My Homelab Setup using Arch Linux"
-published: 2025-10-22
+published: 2025-10-16
 draft: false
 tags: ["Homelab", "Arch Linux", "Docker", "Self-Hosting", "Vaultwarden", "Jellyfin", "Immich", "Portainer", "NGINX"]
 toc: true
