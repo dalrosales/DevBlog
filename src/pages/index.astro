@@ -35,14 +35,6 @@ const postsHaveTags = sortedPosts.some(
     )
   }
   {
-    postsHaveTags && (
-      <>
-        <BlockHeader>Tags</BlockHeader>
-        <TagsSection posts={sortedPosts} />
-      </>
-    )
-  }
-  {
     sortedPosts.length > 0 && (
       <>
         <BlockHeader>Latest Posts</BlockHeader>
@@ -50,6 +42,14 @@ const postsHaveTags = sortedPosts.some(
           <PostPreview post={post} />
         ))}
         <Pagination nextLink="/posts" nextText="Archive" />
+      </>
+    )
+  }
+  {
+    postsHaveTags && (
+      <>
+        <BlockHeader>Tags</BlockHeader>
+        <TagsSection posts={sortedPosts} />
       </>
     )
   }
