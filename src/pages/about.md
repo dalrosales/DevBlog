@@ -3,10 +3,10 @@ layout: '@layouts/MarkdownLayout.astro'
 title: About Me
 ---
 
-I’m an IT and software professional with a passion for building practical solutions and exploring the systems that power modern technology. My interests span application development, homelab infrastructure, and DevOps workflows, all driven by a curiosity to learn and improve.
+I'm an IT professional with a background in application support and a growing focus on infrastructure, systems administration, and DevOps practices. My interests span Linux, containerization, cloud, and the kind of hands-on homelab work that turns concepts into real skills.
 
-You’ll often find me writing C# for personal projects, maintaining servers in my homelab, or automating repetitive tasks to make life a little easier. For me, technology is about solving real problems and creating things that work reliably.
+You'll often find me spinning up self-hosted services on my Arch Linux server, writing automation scripts, or working toward my next certification. I'm code-literate from years of software work, which I find gives me an edge when troubleshooting systems or picking up new tools quickly.
 
-This site is where I document my projects, share lessons learned, and explore topics across software, systems, and automation. My goal is to keep growing as a technologist while contributing knowledge that helps others along the way.
+This site is where I document my projects and share lessons learned as I grow across systems, infrastructure, and cloud. If something here saves you a few hours of debugging, even better.
 
-Thanks for stopping by, I hope you find something here that inspires or helps you on your own tech journey!
+Thank you for stopping by!
